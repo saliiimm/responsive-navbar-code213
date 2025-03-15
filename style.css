@@ -25,6 +25,7 @@
 
 .nav-menu {
   display: flex;
+  gap: 20px;
 }
 
 .nav-item {
@@ -74,10 +75,6 @@
 
   .nav-menu.active {
     right: 0;
-  }
-
-  .nav-item {
-    margin: 1.5rem 0;
   }
 
   /* Hamburger animation when clicked */
